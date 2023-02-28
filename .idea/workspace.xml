@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="heroku 관련 설정 파일 생성">
+    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="설정 jar파일명 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
@@ -233,7 +233,7 @@
       <workItem from="1677477179707" duration="27000" />
       <workItem from="1677477241375" duration="31000" />
       <workItem from="1677477288957" duration="10872000" />
-      <workItem from="1677569739966" duration="3332000" />
+      <workItem from="1677569739966" duration="3502000" />
     </task>
     <task id="LOCAL-00001" summary="java -&gt; springboot migration,&#10;annotation 정리,&#10;config, aop 샘플 작성,&#10;swagger ui 적용">
       <created>1677487317966</created>
@@ -291,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677572658761</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="설정 jar파일명 변경">
+      <created>1677573127037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677573127037</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +322,8 @@
     <MESSAGE value="build&#10;test exception 주석처리" />
     <MESSAGE value="system.properties 생성 및 자바 버전 변경" />
     <MESSAGE value="heroku 관련 설정 파일 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku 관련 설정 파일 생성" />
+    <MESSAGE value="설정 jar파일명 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="설정 jar파일명 변경" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
