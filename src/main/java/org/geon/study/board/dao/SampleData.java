@@ -11,7 +11,7 @@ import java.util.Scanner;
 @Component
 public class SampleData {
 
-    private final String path = "D:\\study\\study\\src\\main\\java\\org\\geon\\study\\board\\dao";
+    private final String path = "D:\\study\\src\\main\\java\\org\\geon\\study\\board\\dao";
 
     public List<String> sampleBoard() {
         List<String> sampleList = new ArrayList<>();
