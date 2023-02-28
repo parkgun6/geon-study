@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="build">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="build&#10;test exception 주석처리">
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/dao/DAOTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/dao/DAOTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/service/ServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/service/ServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/util/ReflectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/util/ReflectionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/study-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/study-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +233,7 @@
       <workItem from="1677477179707" duration="27000" />
       <workItem from="1677477241375" duration="31000" />
       <workItem from="1677477288957" duration="10872000" />
-      <workItem from="1677569739966" duration="577000" />
+      <workItem from="1677569739966" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="java -&gt; springboot migration,&#10;annotation 정리,&#10;config, aop 샘플 작성,&#10;swagger ui 적용">
       <created>1677487317966</created>
@@ -270,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677567251919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="build&#10;test exception 주석처리">
+      <created>1677570424148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677570424149</updated>
+    </task>
+    <task id="LOCAL-00006" summary="build&#10;test exception 주석처리">
+      <created>1677570455044</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677570455044</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +297,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java -&gt; springboot migration,&#10;annotation 정리,&#10;config, aop 샘플 작성,&#10;swagger ui 적용" />
     <MESSAGE value="build" />
-    <option name="LAST_COMMIT_MESSAGE" value="build" />
+    <MESSAGE value="build&#10;exception 주석처리" />
+    <MESSAGE value="build&#10;test exception 주석처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="build&#10;test exception 주석처리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
