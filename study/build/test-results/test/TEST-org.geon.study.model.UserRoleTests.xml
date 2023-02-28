@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.geon.study.model.UserRoleTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-28T06:52:25" hostname="DESKTOP-RH2POBE" time="0.003">
+  <properties/>
+  <testcase name="userRoleConstTest()" classname="org.geon.study.model.UserRoleTests" time="0.001"/>
+  <testcase name="findRoleTest()" classname="org.geon.study.model.UserRoleTests" time="0.001"/>
+  <testcase name="roleEqualTest()" classname="org.geon.study.model.UserRoleTests" time="0.0"/>
+  <system-out><![CDATA[false
+USER
+ADMIN
+MANAGER
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
