@@ -1,7 +1,5 @@
 package org.geon.study.board.model;
 
-import lombok.Getter;
-
 import java.util.Arrays;
 
 public enum UserRole {
@@ -11,7 +9,6 @@ public enum UserRole {
     MANAGER("3"),
     ADMIN("4");
 
-    @Getter
     private final String role;
 
     UserRole(String role) {
@@ -23,6 +20,19 @@ public enum UserRole {
                 .filter(input -> input.hashUserRole(role))
                 .findAny()
                 .orElse(GUEST);
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public static String parseValue(String role) throws IllegalArgumentException {
+        try {
+            UserRole exampleEnum = UserRole.valueOf(role);
+            return exampleEnum.getRole();
+        } catch (IllegalArgumentException e) {
+            throw new IllegalArgumentException("Invalid Role: " + role, e);
+        }
     }
 
     public boolean hashUserRole(String value) {

@@ -4,6 +4,7 @@ import org.geon.study.board.model.Board;
 import org.geon.study.board.model.UserRole;
 import org.geon.study.common.util.ConvertUtil;
 
+import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -16,8 +17,10 @@ public interface StreamService {
 
     public List<Board> searchList(int menu, String userInput);
 
-    default Optional<List<Board>> resultData(List<String> originList) {
-        List<Board> boardList = originList.stream().map(this::parseBoard).collect(Collectors.toList());
+    public int insertBoard(Board board);
+
+    default Optional<List<Board>> resultData(Optional<List<String>> originList) {
+        List<Board> boardList = originList.get().stream().map(this::parseBoard).collect(Collectors.toList());
         Optional<List<Board>> optionalList = ConvertUtil.arrayToOptionalList(boardList);
         return optionalList;
     }

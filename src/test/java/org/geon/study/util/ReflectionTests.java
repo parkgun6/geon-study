@@ -3,12 +3,16 @@ package org.geon.study.util;
 import org.geon.study.board.model.Board;
 import org.geon.study.common.util.ReflectionUtil;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+@SpringBootTest
 public class ReflectionTests {
 
+    @Autowired
     ReflectionUtil reflectionUtil = new ReflectionUtil();
 
     @Test
@@ -34,42 +38,42 @@ public class ReflectionTests {
         System.out.println(reflectionUtil.invokeMethod("model.Board","getBno"));
     }
 
-//    @Test
-//    public void invokeGetterTest() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, InstantiationException {
-//        Class classObject = reflectionUtil.getClassByName("model.Board");
-//        System.out.println(classObject);
-//
-//        Method methodObject = reflectionUtil.getInstanceToMethod(classObject, "getBno");
-//        System.out.println(methodObject);
-//
-//        Object instance = classObject.getDeclaredConstructor().newInstance();
-//        System.out.println(instance);
-//
-//        Object invokeGetter = methodObject.invoke(instance);
-//        System.out.println(invokeGetter);
-//
-////        Object invokeGetter2 = methodObject.invoke(board);
-////        System.out.println(invokeGetter2);
-//    }
+    @Test
+    public void invokeGetterTest() throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, InstantiationException {
+        Class classObject = reflectionUtil.getClassByName("model.Board");
+        System.out.println(classObject);
 
-//    @Test
-//    public void returnTypeCheckTest() throws ClassNotFoundException, NoSuchMethodException {
-//        Class getClass = reflectionUtil.getClassByName("model.Board");
-//
-//        Method getBnoMethod = reflectionUtil.getInstanceToMethod(getClass, "getBno");
-//
-//        String returnType = getBnoMethod.getReturnType().toString();
-//
-//        System.out.println(returnType.equals("class java.lang.Long"));
-//
-//        Board board = new Board();
-//
-//        Method getRoleMethod = reflectionUtil.getInstanceToMethod(getClass, "getRole");
-//
-//        String returnType2 = getRoleMethod.getReturnType().toString();
-//
-//        System.out.println(returnType2);
-//    }
+        Method methodObject = reflectionUtil.getInstanceToMethod(classObject, "getBno");
+        System.out.println(methodObject);
+
+        Object instance = classObject.getDeclaredConstructor().newInstance();
+        System.out.println(instance);
+
+        Object invokeGetter = methodObject.invoke(instance);
+        System.out.println(invokeGetter);
+
+//        Object invokeGetter2 = methodObject.invoke(board);
+//        System.out.println(invokeGetter2);
+    }
+
+    @Test
+    public void returnTypeCheckTest() throws ClassNotFoundException, NoSuchMethodException {
+        Class getClass = reflectionUtil.getClassByName("model.Board");
+
+        Method getBnoMethod = reflectionUtil.getInstanceToMethod(getClass, "getBno");
+
+        String returnType = getBnoMethod.getReturnType().toString();
+
+        System.out.println(returnType.equals("class java.lang.Long"));
+
+        Board board = new Board();
+
+        Method getRoleMethod = reflectionUtil.getInstanceToMethod(getClass, "getRole");
+
+        String returnType2 = getRoleMethod.getReturnType().toString();
+
+        System.out.println(returnType2);
+    }
 
     @Test
     public void setTest() {

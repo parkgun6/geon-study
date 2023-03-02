@@ -2,8 +2,9 @@ package org.geon.study.board.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import org.geon.study.board.dao.SampleData;
+import org.geon.study.board.dao.SampleDataDAO;
 import org.geon.study.board.model.Board;
+import org.geon.study.board.model.UserRole;
 import org.geon.study.common.exception.runtime.RuntimeExceptionHandler;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -27,7 +28,7 @@ public class StreamServiceImpl implements StreamService {
     // forEach  -> 요소 전체를 반복한다. ( 최종처리 메소드 )
     // collect  -> 필요한 요소만 Collection으로 담고, 요소들을 grouping 할 수 있다.
 
-    private final SampleData sampleData;
+    private final SampleDataDAO sampleDataDAO;
 
     @Override
     public String aopTest() {
@@ -36,7 +37,7 @@ public class StreamServiceImpl implements StreamService {
 
     @Override
     public List<Board> getList() {
-        Optional<List<Board>> optBoardList = resultData(sampleData.sampleBoard());
+        Optional<List<Board>> optBoardList = resultData(sampleDataDAO.getSampleList());
         // ASC
         log.info(optBoardList.isPresent());
         if (optBoardList.isPresent()) {
@@ -55,7 +56,7 @@ public class StreamServiceImpl implements StreamService {
 
     @Override
     public List<Board> searchList(int menu, String userInput) {
-        Optional<List<Board>> optBoardList = resultData(sampleData.sampleBoard());
+        Optional<List<Board>> optBoardList = resultData(sampleDataDAO.getSampleList());
         Map<Integer, Predicate<Board>> filterMap = new HashMap<>();
         filterMap.put(1, board -> board.getBno().equals(Long.parseLong(userInput)));
         filterMap.put(2, board -> board.getTitle().contains(userInput));
@@ -73,5 +74,12 @@ public class StreamServiceImpl implements StreamService {
         }
     }
 
-
+    @Override
+    public int insertBoard(Board board) {
+        Optional<List<String>> originList = sampleDataDAO.getSampleList();
+        Long lastBno = 1 + sampleDataDAO.getLastBno(originList);
+        board.setBno(lastBno);
+        board.setRole(UserRole.GUEST);
+        return sampleDataDAO.insertData(board);
+    }
 }
