@@ -32,6 +32,9 @@ dependencies {
     /*테스트환경에서 Log4j2 사용*/
     testCompileOnly 'org.projectlombok:lombok'
     testAnnotationProcessor 'org.projectlombok:lombok'
+
+    /* firebase */
+    implementation 'com.google.firebase:firebase-firestore'
 }
 
 tasks.named('test') {
