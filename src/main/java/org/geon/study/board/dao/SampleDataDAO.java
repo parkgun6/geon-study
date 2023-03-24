@@ -1,7 +1,7 @@
 package org.geon.study.board.dao;
 
 import lombok.extern.log4j.Log4j2;
-import org.geon.study.board.model.Board;
+import org.geon.study.board.dto.Board;
 import org.geon.study.common.exception.runtime.RuntimeExceptionHandler;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

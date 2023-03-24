@@ -1,8 +1,8 @@
 package org.geon.study.board.ui;
 
 import lombok.RequiredArgsConstructor;
-import org.geon.study.board.model.Board;
-import org.geon.study.board.service.StreamServiceImpl;
+import org.geon.study.board.dto.Board;
+import org.geon.study.board.service.impl.StreamServiceImpl;
 
 import java.util.List;
 import java.util.Scanner;
