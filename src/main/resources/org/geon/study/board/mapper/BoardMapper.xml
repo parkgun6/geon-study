@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.geon.study.board.mapper.BoardMapper">
+
+    <select id="getBoard" resultType="org.geon.study.board.dto.Board">
+        SELECT * FROM TB_BOARD ORDER BY BNO DESC
+    </select>
+
+    <insert id="insertBoard">
+        INSERT INTO TB_BOARD (TITLE, CONTENT) VALUES (#{title},#{content})
+    </insert>
+</mapper>

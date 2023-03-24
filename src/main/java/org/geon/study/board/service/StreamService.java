@@ -1,10 +1,9 @@
 package org.geon.study.board.service;
 
-import org.geon.study.board.model.Board;
-import org.geon.study.board.model.UserRole;
+import org.geon.study.board.dto.Board;
+import org.geon.study.board.dto.UserRole;
 import org.geon.study.common.util.ConvertUtil;
 
-import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

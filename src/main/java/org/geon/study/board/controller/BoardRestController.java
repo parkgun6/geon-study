@@ -4,13 +4,13 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import org.geon.study.board.model.Board;
+import org.geon.study.board.dto.Board;
+import org.geon.study.board.service.BoardService;
 import org.geon.study.board.service.StreamService;
 import org.geon.study.common.exception.runtime.RuntimeExceptionHandler;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import springfox.documentation.annotations.ApiIgnore;
 
 import java.util.List;
 
@@ -47,6 +47,8 @@ public class BoardRestController {
         코드의 간결성과 유지보수성이 향상될 수 있다.
      */
     private final StreamService service;
+
+    private final BoardService boardService;
 
     @GetMapping("")
     @ApiOperation(value = "Hello World", response = Board.class)
@@ -92,5 +94,12 @@ public class BoardRestController {
     public ResponseEntity<Integer> insertBoard(Board board) {
         log.info(board.toString());
         return new ResponseEntity<>(service.insertBoard(board),HttpStatus.OK);
+    }
+
+    @GetMapping("mysql-board")
+    @ApiOperation(value = "GET BOARD (MySQL)")
+    public ResponseEntity<List<Board>> getBoardList() {
+        List<Board> boardList = boardService.getBoardList();
+        return new ResponseEntity<>(boardList, HttpStatus.OK);
     }
 }

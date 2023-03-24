@@ -4,29 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="설정 jar파일명 변경">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleDataDAO.java" afterDir="false" />
+    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/mapper/BoardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/mapper/ReplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/impl/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/time/mapper/TimeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/geon/study/board/mapper/BoardMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/geon/study/board/mapper/ReplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/geon/study/time/mapper/TimeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/mapper/BoardMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/mapper/ReplyMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/service/BoardServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/jdbc/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/jdbc/TimeMapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/controller/BoardRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/controller/BoardRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/dao/SampleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/dao/SampleDataDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/dao/SampleDataDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/Board$BoardBuilder.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/Reply$ReplyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/UserRole.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/service/StreamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/service/StreamService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/service/StreamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/service/StreamServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/dao/DAOTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/geon/study/dao/DAOTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/model/UserRoleTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/geon/study/model/UserRoleTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/service/ServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/geon/study/service/ServiceTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/util/ReflectionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/geon/study/util/ReflectionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/service/StreamServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/ui/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/ui/MainUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/dao/DAOTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/model/UserRoleTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/service/ServiceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/util/ReflectionTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/controller/BoardRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/controller/BoardRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/geon/study/board/dao/SampleData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleDataDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleDataDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dto/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/Reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dto/Reply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dto/UserRole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/StreamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/StreamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/StreamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/StreamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/dao/DAOTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/dao/DAOTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/model/UserRoleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/model/UserRoleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/util/ReflectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/util/ReflectionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/StreamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/impl/StreamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/ui/MainUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/dao/DAOTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/dao/DAOTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/model/UserRoleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/dto/UserRoleTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/service/ServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/service/StreamServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/util/ReflectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/util/ReflectionTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,93 +133,99 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/org/geon/study/board/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\src\main\resources\org\geon\study\board\mapper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\src\main\resources\org\geon\study\board\dao" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.geon.study.board.mapper" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.StudyApplication (1)">
-    <configuration name="DAOTests.insertLoopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardMapperTests.getBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geon.study.dao.*" />
+          <option name="PATTERN" value="org.geon.study.board.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.geon.study.dao" />
-      <option name="MAIN_CLASS_NAME" value="org.geon.study.dao.DAOTests" />
-      <option name="METHOD_NAME" value="insertLoopTest" />
+      <option name="PACKAGE_NAME" value="org.geon.study.board.mapper" />
+      <option name="MAIN_CLASS_NAME" value="org.geon.study.board.mapper.BoardMapperTests" />
+      <option name="METHOD_NAME" value="getBoardTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DAOTests.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardMapperTests.insertBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geon.study.dao.*" />
+          <option name="PATTERN" value="org.geon.study.board.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.geon.study.dao" />
-      <option name="MAIN_CLASS_NAME" value="org.geon.study.dao.DAOTests" />
-      <option name="METHOD_NAME" value="insertTest" />
+      <option name="PACKAGE_NAME" value="org.geon.study.board.mapper" />
+      <option name="MAIN_CLASS_NAME" value="org.geon.study.board.mapper.BoardMapperTests" />
+      <option name="METHOD_NAME" value="insertBoard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRoleTests.findRoleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardServiceTests.getBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geon.study.model.*" />
+          <option name="PATTERN" value="org.geon.study.board.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.geon.study.model" />
-      <option name="MAIN_CLASS_NAME" value="org.geon.study.model.UserRoleTests" />
-      <option name="METHOD_NAME" value="findRoleTest" />
+      <option name="PACKAGE_NAME" value="org.geon.study.board.service" />
+      <option name="MAIN_CLASS_NAME" value="org.geon.study.board.service.BoardServiceTests" />
+      <option name="METHOD_NAME" value="getBoardTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRoleTests.roleToValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplyMapperTests.getBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geon.study.model.*" />
+          <option name="PATTERN" value="org.geon.study.board.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.geon.study.model" />
-      <option name="MAIN_CLASS_NAME" value="org.geon.study.model.UserRoleTests" />
-      <option name="METHOD_NAME" value="roleToValueTest" />
+      <option name="PACKAGE_NAME" value="org.geon.study.board.mapper" />
+      <option name="MAIN_CLASS_NAME" value="org.geon.study.board.mapper.ReplyMapperTests" />
+      <option name="METHOD_NAME" value="getBoardTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRoleTests.timeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplyMapperTests.insertReply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geon.study.model.*" />
+          <option name="PATTERN" value="org.geon.study.board.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.geon.study.model" />
-      <option name="MAIN_CLASS_NAME" value="org.geon.study.model.UserRoleTests" />
-      <option name="METHOD_NAME" value="timeTest" />
+      <option name="PACKAGE_NAME" value="org.geon.study.board.mapper" />
+      <option name="MAIN_CLASS_NAME" value="org.geon.study.board.mapper.ReplyMapperTests" />
+      <option name="METHOD_NAME" value="insertReply" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -226,20 +255,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DAOTests.insertTest" />
-      <item itemvalue="JUnit.UserRoleTests.timeTest" />
-      <item itemvalue="JUnit.UserRoleTests.findRoleTest" />
-      <item itemvalue="JUnit.UserRoleTests.roleToValueTest" />
-      <item itemvalue="JUnit.DAOTests.insertLoopTest" />
       <item itemvalue="Spring Boot.StudyApplication (1)" />
+      <item itemvalue="JUnit.BoardMapperTests.getBoardTest" />
+      <item itemvalue="JUnit.ReplyMapperTests.getBoardTest" />
+      <item itemvalue="JUnit.BoardMapperTests.insertBoard" />
+      <item itemvalue="JUnit.ReplyMapperTests.insertReply" />
+      <item itemvalue="JUnit.BoardServiceTests.getBoardTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DAOTests.insertLoopTest" />
-        <item itemvalue="JUnit.UserRoleTests.findRoleTest" />
-        <item itemvalue="JUnit.DAOTests.insertTest" />
-        <item itemvalue="JUnit.UserRoleTests.roleToValueTest" />
-        <item itemvalue="JUnit.UserRoleTests.timeTest" />
+        <item itemvalue="JUnit.BoardMapperTests.getBoardTest" />
+        <item itemvalue="JUnit.BoardServiceTests.getBoardTest" />
+        <item itemvalue="JUnit.ReplyMapperTests.insertReply" />
+        <item itemvalue="JUnit.BoardMapperTests.insertBoard" />
+        <item itemvalue="JUnit.ReplyMapperTests.getBoardTest" />
       </list>
     </recent_temporary>
   </component>
