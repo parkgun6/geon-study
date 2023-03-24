@@ -48,27 +48,27 @@ public class DAOTests {
 
     }
 
-    @Test
-    public void getFinalBnoTest() {
-        Long lastBno = sampleDataDAO.getLastBno(sampleDataDAO.getSampleList());
-        log.info(lastBno);
-    }
+//    @Test
+//    public void getFinalBnoTest() {
+//        Long lastBno = sampleDataDAO.getLastBno(sampleDataDAO.getSampleList());
+//        log.info(lastBno);
+//    }
 
-    @Test
-    public void insertTest() {
-        Long lastBno = 1 + sampleDataDAO.getLastBno(sampleDataDAO.getSampleList());
-        Board board = Board.builder()
-                .bno(lastBno)
-                .title("제목" + lastBno)
-                .content("등록테스트" + lastBno)
-                .username("tester1")
-                .nickname("테스터12")
-                .regDate(new Date().toString())
-                .modDate(new Date().toString())
-                .role(UserRole.findByUserRole(String.valueOf(new Random().nextInt(4) + 1)))
-                .build();
-        sampleDataDAO.insertData(board);
-    }
+//    @Test
+//    public void insertTest() {
+//        Long lastBno = 1 + sampleDataDAO.getLastBno(sampleDataDAO.getSampleList());
+//        Board board = Board.builder()
+//                .bno(lastBno)
+//                .title("제목" + lastBno)
+//                .content("등록테스트" + lastBno)
+//                .username("tester1")
+//                .nickname("테스터12")
+//                .regDate(new Date().toString())
+//                .modDate(new Date().toString())
+//                .role(UserRole.findByUserRole(String.valueOf(new Random().nextInt(4) + 1)))
+//                .build();
+//        sampleDataDAO.insertData(board);
+//    }
 
     @Test
     public void insertLoopTest() {
