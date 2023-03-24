@@ -5,51 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/mapper/BoardMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/mapper/ReplyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/impl/BoardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/time/mapper/TimeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/geon/study/board/mapper/BoardMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/geon/study/board/mapper/ReplyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/geon/study/time/mapper/TimeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/mapper/BoardMapperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/mapper/ReplyMapperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/service/BoardServiceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/jdbc/JDBCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/jdbc/TimeMapperTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/controller/BoardRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/controller/BoardRestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/dao/SampleDataDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/dao/SampleDataDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/Board$BoardBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/Reply$ReplyBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/Reply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/model/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/service/StreamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/service/StreamService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/service/StreamServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/ui/MainUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/board/ui/MainUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/dao/DAOTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/model/UserRoleTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/service/ServiceTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/util/ReflectionTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/controller/BoardRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/controller/BoardRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleDataDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dao/SampleDataDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dto/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/Reply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dto/Reply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/dto/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/StreamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/StreamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/StreamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/service/impl/StreamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/board/ui/MainUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/board/ui/MainUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/dao/DAOTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/dao/DAOTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/model/UserRoleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/dto/UserRoleTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/service/ServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/service/StreamServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/geon/study/util/ReflectionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/geon/study/board/util/ReflectionTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +106,28 @@
       <recent name="org.geon.study.board.mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudyApplication (1)">
+  <component name="RunManager" selected="Gradle.study [build]">
+    <configuration name="study [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="BoardMapperTests.getBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
@@ -199,22 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplyMapperTests.getBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.geon.study.board.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.geon.study.board.mapper" />
-      <option name="MAIN_CLASS_NAME" value="org.geon.study.board.mapper.ReplyMapperTests" />
-      <option name="METHOD_NAME" value="getBoardTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReplyMapperTests.insertReply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
@@ -257,18 +218,18 @@
     <list>
       <item itemvalue="Spring Boot.StudyApplication (1)" />
       <item itemvalue="JUnit.BoardMapperTests.getBoardTest" />
-      <item itemvalue="JUnit.ReplyMapperTests.getBoardTest" />
       <item itemvalue="JUnit.BoardMapperTests.insertBoard" />
       <item itemvalue="JUnit.ReplyMapperTests.insertReply" />
       <item itemvalue="JUnit.BoardServiceTests.getBoardTest" />
+      <item itemvalue="Gradle.study [build]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.study [build]" />
         <item itemvalue="JUnit.BoardMapperTests.getBoardTest" />
         <item itemvalue="JUnit.BoardServiceTests.getBoardTest" />
         <item itemvalue="JUnit.ReplyMapperTests.insertReply" />
         <item itemvalue="JUnit.BoardMapperTests.insertBoard" />
-        <item itemvalue="JUnit.ReplyMapperTests.getBoardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +318,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677573282219</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="google cloud, mysql 연동 테스트 및 mybatis dependancy 추가">
+      <created>1679646487678</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679646487678</updated>
+    </task>
+    <task id="LOCAL-00012" summary="google cloud, mysql 연동 테스트 및 mybatis dependancy 추가">
+      <created>1679646520417</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679646520417</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +357,8 @@
     <MESSAGE value="system.properties 생성 및 자바 버전 변경" />
     <MESSAGE value="heroku 관련 설정 파일 생성" />
     <MESSAGE value="설정 jar파일명 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="설정 jar파일명 변경" />
+    <MESSAGE value="google cloud, mysql 연동 테스트 및 mybatis dependancy 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="google cloud, mysql 연동 테스트 및 mybatis dependancy 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
