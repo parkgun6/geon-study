@@ -34,6 +34,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2'
 
+    /* db정보 암호화용 */
+    implementation group: 'com.github.ulisesbocchio', name: 'jasypt-spring-boot-starter', version: '3.0.5'
 
     /*테스트환경에서 Log4j2 사용*/
     testCompileOnly 'org.projectlombok:lombok'

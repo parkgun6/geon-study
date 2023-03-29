@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: gangseo-study
-    url: jdbc:mysql://35.188.188.213:3306/board
-    password: tjdrjs189
