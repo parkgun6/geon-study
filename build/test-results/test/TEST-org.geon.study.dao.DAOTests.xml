@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.geon.study.dao.DAOTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-28T07:45:25" hostname="DESKTOP-RH2POBE" time="0.016">
-  <properties/>
-  <testcase name="dataReadTest()" classname="org.geon.study.dao.DAOTests" time="0.009"/>
-  <testcase name="readFileTest()" classname="org.geon.study.dao.DAOTests" time="0.006"/>
-  <system-out><![CDATA[16:45:25.308 [Test worker] INFO org.geon.study.dao.DAOTests - []
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
