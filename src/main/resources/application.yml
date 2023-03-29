@@ -1,0 +1,24 @@
+logging:
+  level:
+    org:
+      springframework:
+        web: info
+
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: ENC(jwNe0IkPLKX2JA9YpidEYtZhUeZstK6ZHjWXFMEOEmB8Ml+Xa7Qo/B+Gsr+TDsJt)
+    username: ENC(xgxwcIwKa+HNYNQRTqTRucAXc+2OmEnn)
+    password: ENC(U8K2ei/EQOUF38/o62UIx9FrgWD/Imvr)
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+  
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  
+jasypt:
+  encryptor:
+    bean: jasyptStringEncryptor

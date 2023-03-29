@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="koyeb배포용 class파일">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/GlobalPropertySources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/YamlLoadFactory.java" afterDir="false" />
+    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="db info yaml 세팅">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/JasyptConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application-dbinfo.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/org/geon/study/board/dao/SampleData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/org/geon/study/board/dao/SampleData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/board/dao/DAOTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/geon/study/board/dao/DAOTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/GlobalPropertySources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/GlobalPropertySources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,17 +169,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardServiceTests.getBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JasyptApplicationTests.jasypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.geon.study.board.service.*" />
+          <option name="PATTERN" value="org.geon.study.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.geon.study.board.service" />
-      <option name="MAIN_CLASS_NAME" value="org.geon.study.board.service.BoardServiceTests" />
-      <option name="METHOD_NAME" value="getBoardTest" />
+      <option name="PACKAGE_NAME" value="org.geon.study.config" />
+      <option name="MAIN_CLASS_NAME" value="org.geon.study.config.JasyptApplicationTests" />
+      <option name="METHOD_NAME" value="jasypt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,16 +199,16 @@
       <item itemvalue="Application.incode" />
       <item itemvalue="Application.StudyApplication" />
       <item itemvalue="Gradle.study [build]" />
+      <item itemvalue="JUnit.JasyptApplicationTests.jasypt" />
       <item itemvalue="JUnit.BoardMapperTests.getBoardTest" />
-      <item itemvalue="JUnit.BoardServiceTests.getBoardTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StudyApplication" />
+        <item itemvalue="JUnit.JasyptApplicationTests.jasypt" />
         <item itemvalue="Application.incode" />
         <item itemvalue="Gradle.study [build]" />
         <item itemvalue="JUnit.BoardMapperTests.getBoardTest" />
-        <item itemvalue="JUnit.BoardServiceTests.getBoardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680054473684</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="db info yaml 세팅">
+      <created>1680077527063</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680077527063</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +374,8 @@
     <MESSAGE value="google cloud, mysql 연동 테스트 및 mybatis dependancy 추가" />
     <MESSAGE value="properties 분리" />
     <MESSAGE value="koyeb배포용 class파일" />
-    <option name="LAST_COMMIT_MESSAGE" value="koyeb배포용 class파일" />
+    <MESSAGE value="db info yaml 세팅" />
+    <option name="LAST_COMMIT_MESSAGE" value="db info yaml 세팅" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
