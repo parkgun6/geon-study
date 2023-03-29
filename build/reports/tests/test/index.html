@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">12</div>
+<div class="counter">27</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">6</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.024s</div>
+<div class="counter">6m3.81s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">77%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,45 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/org.geon.study.board.util.ReflectionTests.html">ReflectionTests</a>.
+<a href="classes/org.geon.study.board.util.ReflectionTests.html#getMethodTest2()">getMethodTest2()</a>
+</li>
+<li>
+<a href="classes/org.geon.study.board.util.ReflectionTests.html">ReflectionTests</a>.
+<a href="classes/org.geon.study.board.util.ReflectionTests.html#getMethods()">getMethods()</a>
+</li>
+<li>
+<a href="classes/org.geon.study.board.util.ReflectionTests.html">ReflectionTests</a>.
+<a href="classes/org.geon.study.board.util.ReflectionTests.html#invokeGetterTest()">invokeGetterTest()</a>
+</li>
+<li>
+<a href="classes/org.geon.study.board.util.ReflectionTests.html">ReflectionTests</a>.
+<a href="classes/org.geon.study.board.util.ReflectionTests.html#returnTypeCheckTest()">returnTypeCheckTest()</a>
+</li>
+<li>
+<a href="classes/org.geon.study.board.util.ReflectionTests.html">ReflectionTests</a>.
+<a href="classes/org.geon.study.board.util.ReflectionTests.html#setTest()">setTest()</a>
+</li>
+<li>
+<a href="classes/org.geon.study.jdbc.JDBCTest.html">JDBCTest</a>.
+<a href="classes/org.geon.study.jdbc.JDBCTest.html#connectionTest()">connectionTest()</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -80,48 +112,68 @@
 <tbody>
 <tr>
 <td class="success">
-<a href="packages/org.geon.study.dao.html">org.geon.study.dao</a>
+<a href="packages/org.geon.study.board.dao.html">org.geon.study.board.dao</a>
 </td>
-<td>2</td>
+<td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.015s</td>
+<td>0.380s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="packages/org.geon.study.model.html">org.geon.study.model</a>
+<a href="packages/org.geon.study.board.dto.html">org.geon.study.board.dto</a>
 </td>
-<td>3</td>
+<td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="packages/org.geon.study.service.html">org.geon.study.service</a>
+<a href="packages/org.geon.study.board.mapper.html">org.geon.study.board.mapper</a>
 </td>
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>5m41.60s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="packages/org.geon.study.util.html">org.geon.study.util</a>
+<a href="packages/org.geon.study.board.service.html">org.geon.study.board.service</a>
+</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0.410s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="packages/org.geon.study.board.util.html">org.geon.study.board.util</a>
+</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0.004s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="packages/org.geon.study.jdbc.html">org.geon.study.jdbc</a>
 </td>
 <td>3</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.006s</td>
-<td class="success">100%</td>
+<td>21.415s</td>
+<td class="failures">66%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -137,42 +189,92 @@
 <tbody>
 <tr>
 <td class="success">
-<a href="classes/org.geon.study.dao.DAOTests.html">org.geon.study.dao.DAOTests</a>
+<a href="classes/org.geon.study.board.dao.DAOTests.html">org.geon.study.board.dao.DAOTests</a>
+</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0.380s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.geon.study.board.dto.UserRoleTests.html">org.geon.study.board.dto.UserRoleTests</a>
+</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0.003s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.geon.study.board.mapper.BoardMapperTests.html">org.geon.study.board.mapper.BoardMapperTests</a>
 </td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.015s</td>
+<td>2m52.00s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="classes/org.geon.study.model.UserRoleTests.html">org.geon.study.model.UserRoleTests</a>
+<a href="classes/org.geon.study.board.mapper.ReplyMapperTests.html">org.geon.study.board.mapper.ReplyMapperTests</a>
 </td>
-<td>3</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.002s</td>
+<td>2m49.60s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
-<a href="classes/org.geon.study.service.ServiceTests.html">org.geon.study.service.ServiceTests</a>
+<a href="classes/org.geon.study.board.service.BoardServiceTests.html">org.geon.study.board.service.BoardServiceTests</a>
+</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.410s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.geon.study.board.service.StreamServiceTests.html">org.geon.study.board.service.StreamServiceTests</a>
 </td>
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.001s</td>
+<td>0s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
-<a href="classes/org.geon.study.util.ReflectionTests.html">org.geon.study.util.ReflectionTests</a>
+<td class="failures">
+<a href="classes/org.geon.study.board.util.ReflectionTests.html">org.geon.study.board.util.ReflectionTests</a>
 </td>
-<td>3</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0.004s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/org.geon.study.jdbc.JDBCTest.html">org.geon.study.jdbc.JDBCTest</a>
+</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>21.072s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/org.geon.study.jdbc.TimeMapperTests.html">org.geon.study.jdbc.TimeMapperTests</a>
+</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.343s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
@@ -186,7 +288,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.2</a> at 2023. 2. 28. 오후 4:45:25</p>
+<a href="http://www.gradle.org">Gradle 7.2</a> at 2023. 3. 28. 오후 5:56:56</p>
 </div>
 </div>
 </body>
