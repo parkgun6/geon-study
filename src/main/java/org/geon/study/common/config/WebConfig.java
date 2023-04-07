@@ -9,6 +9,7 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
         return new Class[] {
                 CommonConfig.class,
                 BoardConfig.class,
+                DatabaseConfig.class,
         };
     }
 

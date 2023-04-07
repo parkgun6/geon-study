@@ -4,19 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="db info yaml 세팅">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/JasyptConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="be42d924-c12f-4df4-b648-3f6224a55089" name="Changes" comment="feat: koyeb db connect test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application-dbinfo.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/org/geon/study/board/dao/SampleData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/org/geon/study/board/dao/SampleData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/geon/study/board/dao/DAOTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/geon/study/board/dao/DAOTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/geon/study/common/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/geon/study/common/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/study-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/study-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.dao.DAOTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.dao.DAOTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.dto.UserRoleTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.dto.UserRoleTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.mapper.BoardMapperTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.mapper.BoardMapperTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.mapper.ReplyMapperTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.mapper.ReplyMapperTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.service.BoardServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.service.BoardServiceTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.service.StreamServiceTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.service.StreamServiceTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.util.ReflectionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.board.util.ReflectionTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.jdbc.JDBCTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.jdbc.JDBCTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.jdbc.TimeMapperTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/org.geon.study.jdbc.TimeMapperTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.dao.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.dao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.dto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.mapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.mapper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.service.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.util.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.board.util.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.jdbc.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/org.geon.study.jdbc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application-dbinfo.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.dao.DAOTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.dao.DAOTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.dto.UserRoleTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.dto.UserRoleTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.mapper.BoardMapperTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.mapper.BoardMapperTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.mapper.ReplyMapperTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.mapper.ReplyMapperTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.service.BoardServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.service.BoardServiceTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.service.StreamServiceTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.service.StreamServiceTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.util.ReflectionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.board.util.ReflectionTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.jdbc.JDBCTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.jdbc.JDBCTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.jdbc.TimeMapperTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-org.geon.study.jdbc.TimeMapperTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/geon/study/common/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/geon/study/common/config/WebConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/GlobalPropertySources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/GlobalPropertySources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/geon/study/common/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/study-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/study-0.0.1-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,9 +250,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StudyApplication" />
+        <item itemvalue="Gradle.study [build]" />
         <item itemvalue="JUnit.JasyptApplicationTests.jasypt" />
         <item itemvalue="Application.incode" />
-        <item itemvalue="Gradle.study [build]" />
         <item itemvalue="JUnit.BoardMapperTests.getBoardTest" />
       </list>
     </recent_temporary>
@@ -346,7 +391,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680077527063</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add jasypt encoder library">
+      <created>1680078803218</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680078803218</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add jasypt encoder library">
+      <created>1680078846558</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680078846558</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +434,9 @@
     <MESSAGE value="properties 분리" />
     <MESSAGE value="koyeb배포용 class파일" />
     <MESSAGE value="db info yaml 세팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="db info yaml 세팅" />
+    <MESSAGE value="add jasypt encoder library" />
+    <MESSAGE value="feat: koyeb db connect test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: koyeb db connect test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
